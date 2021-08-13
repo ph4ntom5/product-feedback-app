@@ -1,0 +1,83 @@
+@import "/src/styles/colors.scss";
+
+/* Btn Colors and Styles*/
+.btn {
+  font-family: Jost, sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  border-radius: 8px !important;
+  text-transform: capitalize !important;
+
+  &:hover {
+    background-color: #cf64fc !important;
+    transition-duration: 1s;
+  }
+}
+
+.btn-primary-solid {
+  background-color: $Accentpurple !important;
+  border: none;
+  color: $Lightgray !important;
+  cursor: pointer !important;
+}
+
+.btn-secondary-solid {
+  color: $Lightgray !important;
+  background-color: $Accentblue !important;
+  &:hover {
+    background-color: #879bfe !important;
+    transition-duration: 1s;
+  }
+}
+
+.btn-dark-solid {
+  color: $Lightgray !important;
+  background-color: $AccentDarkblue !important;
+  &:hover {
+    background-color: #7079af !important;
+    transition-duration: 1s;
+  }
+}
+
+.btn-warning-solid {
+  color: $Lightgray !important;
+  background-color: $Accentred !important;
+  &:hover {
+    background-color: #ed9292 !important;
+    transition-duration: 1s;
+  }
+}
+
+.btn-icon-solid {
+  background-color: $AccentDarkblue !important;
+  background: url("../../../assets/shared/icon-arrow-left-light.svg") no-repeat;
+  background-position: left 1.3rem top 1rem;
+  color: $Lightgray !important;
+  &:hover {
+    color: $Lightgray !important;
+    text-decoration: underline $Lightgray !important;
+    background-color: $AccentDarkblue !important;
+  }
+}
+
+.btn-icon-outlined {
+  background: url("../../../assets/shared/icon-arrow-left.svg") no-repeat !important;
+  background-position: left 1.3rem top 1rem !important;
+  color: $Darkgray !important;
+  background-color: none !important;
+  &:hover {
+    color: $Darkgray !important;
+    text-decoration: underline $Darkgray !important;
+    background-color: $Lightgray !important;
+  }
+}
+
+/* Btn Size*/
+
+.btn-normal {
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem !important;
+}
+
+.btn-medium {
+  padding: 0.75rem 2.5rem 0.75rem 2.5rem !important;
+}
