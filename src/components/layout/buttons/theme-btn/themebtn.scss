@@ -1,0 +1,19 @@
+@import "/src/styles/colors.scss";
+
+.btn-upvote-solid {
+  background-color: #f4f5ff !important;
+  padding: 15px 1px 15px 1px !important;
+  &:hover {
+    background-color: #d5dcff !important;
+    transition-duration: 1s;
+  }
+  &:active {
+    background-color: $Accentblue !important;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.6, 1) !important;
+    color: $Gray !important;
+  }
+}
+
+.MuiButton-root {
+  min-width: 35px !important;
+}

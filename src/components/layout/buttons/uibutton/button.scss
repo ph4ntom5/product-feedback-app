@@ -50,7 +50,8 @@
 
 .btn-icon-solid {
   background-color: $AccentDarkblue !important;
-  background: url("../../../assets/shared/icon-arrow-left-light.svg") no-repeat;
+  background: url("../../../../assets/shared/icon-arrow-left-light.svg")
+    no-repeat;
   background-position: left 1.3rem top 1rem;
   color: $Lightgray !important;
   &:hover {
@@ -61,7 +62,7 @@
 }
 
 .btn-icon-outlined {
-  background: url("../../../assets/shared/icon-arrow-left.svg") no-repeat !important;
+  background: url("../../../../assets/shared/icon-arrow-left.svg") no-repeat !important;
   background-position: left 1.3rem top 1rem !important;
   color: $Darkgray !important;
   background-color: none !important;
