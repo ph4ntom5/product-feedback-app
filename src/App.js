@@ -1,12 +1,9 @@
 import "./styles/App.scss";
 import UIButton from "./components/layout/buttons/uibutton/button";
+import Dropdown from "./components/dropdowns/dropdown";
 import Upvote from "./components/layout/buttons/upvote-btn/upvote";
 import Themebtn from "./components/layout/buttons/theme-btn/themebtn";
-import { createTheme, ThemeProvider } from "@material-ui/core";
-
-const theme = createTheme({
-  // styles goes here
-});
+import { ThemeProvider } from "@material-ui/core";
 
 function App() {
   return (
@@ -28,6 +25,7 @@ function App() {
         </UIButton>
         <Upvote type="button" buttonStyle="btn-upvote-icon"></Upvote>
         <Themebtn>UX</Themebtn>
+        <Dropdown dropDownStyle="dropdown-dark"></Dropdown>
       </ThemeProvider>
     </>
   );
