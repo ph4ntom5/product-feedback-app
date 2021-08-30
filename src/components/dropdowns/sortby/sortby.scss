@@ -1,0 +1,61 @@
+@import "/src/styles/colors.scss";
+
+.sort-dark {
+  width: 14rem;
+  font-family: "Jost";
+  background-color: $Grayblue;
+  border: none;
+  color: $Lightgray;
+  padding: 1.2rem 1.6rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  svg {
+    font-size: 1.2rem;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    span {
+      padding-right: 0.2rem;
+      flex-wrap: nowrap;
+      width: 6rem;
+      margin-right: -0.5rem;
+    }
+  }
+  select {
+    width: 100%;
+    height: 100%;
+    background-color: $Grayblue;
+    color: $Lightgray;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    -webkit-appearance: none;
+
+    appearance: none;
+    cursor: pointer;
+    option {
+      background-color: white;
+      box-shadow: 0px 10px 40px -7px rgba(55, 63, 104, 0.350492);
+      border-radius: 0.6rem;
+      padding-top: 0.6rem;
+      padding-bottom: 0.6rem;
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      -webkit-padding-end: 20px;
+      -moz-padding-end: 20px;
+      -webkit-padding-start: 2px;
+      -moz-padding-start: 2px;
+
+      &:hover {
+        color: $Accentpurple;
+      }
+    }
+  }
+}
+
+.chakra-select__icon-wrapper svg {
+  display: none;
+}

@@ -11,8 +11,12 @@
   cursor: pointer;
   svg {
     font-size: 1.2rem;
-    :after {
-      transform: rotate(180deg);
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    span {
+      padding-right: 0.4rem;
     }
   }
 }
@@ -48,8 +52,4 @@
     color: $Darkgray;
     opacity: 0.15;
   }
-}
-
-.icons svg {
-  transform: rotate(180deg);
 }
